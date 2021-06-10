@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#event{
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+    position: relative;
+}
+#event button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+}
+#event button:hover{
+    box-shadow: 0px 3px 8px #000, 0px -3px 8px #000,3px 0px 8px #000,-3px 0px 8px #000;
+    cursor: pointer;
+}
